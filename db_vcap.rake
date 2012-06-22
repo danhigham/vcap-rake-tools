@@ -69,7 +69,7 @@ ADAPTERS = { 'mysql' => 'mysql2' }
 
 namespace :vcap do
 
-  task :db_connect => :environment do
+  task :db_connect do
     
     db_conf_path = "config/database.yml"
 
