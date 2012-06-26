@@ -8,6 +8,13 @@ __Gem Dependencies__
 * vmc
 * caldecott
 
+like this ;
+
+	group :development do
+	  gem 'vmc'
+	  gem 'caldecott', '>=0.0.5'
+	end
+
 __Tasks__
 
 * vcap:db_connect (Rails)
