@@ -1,4 +1,4 @@
-require 'cli'
+require 'cli' if Rails.env != "production"
 
 module ServiceExtension
   
